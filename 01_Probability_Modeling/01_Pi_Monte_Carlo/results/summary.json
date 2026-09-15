@@ -1,0 +1,7 @@
+{
+  "n_points": 100000,
+  "seed": 42,
+  "hits": 78507,
+  "pi_estimate": 3.14028,
+  "absolute_error": 0.0013126535897929337
+}
