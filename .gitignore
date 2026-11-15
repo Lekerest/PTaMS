@@ -1,6 +1,7 @@
-# PyCharm
+# Настройки редакторов
 .idea/
 *.iml
+.vscode/
 
 # Python
 __pycache__/
@@ -11,16 +12,60 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
 # Тесты и кэш
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 .coverage
+.coverage.*
 htmlcov/
+
+# Локальные датасеты и скачанные архивы
+enron1/
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+
+# Результаты вычислений и временные каталоги
+results/
+output/
+outputs/
+tmp/
+temp/
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Сборка Python-пакетов
+build/
+dist/
+*.egg-info/
+
+# Локальные секреты
+.env
+.env.*
+!.env.example
+*.pem
+*.key
 
 # Системные файлы
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Временные файлы
 *.log
 *.tmp
+*.bak
+*.swp
+*~
